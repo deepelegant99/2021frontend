@@ -86,4 +86,41 @@ section {
   display: block;
   margin-top: 1em;
 }
+
+.left-col .watch-video-cta img {
+  margin-right: .5em;
+}
+
+.hero-img {
+  width: 70%;
+  margin-top: 3em;
+}
+
+section.features-section {
+  background: #20272E;
+  color: white;
+}
+
+ul.feature-list {
+  margin: 0;
+  padding-left: .1em;
+}
+
+ul.feature-list li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+
+ul.feature-list li:before {
+  content: '';
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/bullet.svg);
+  background-size: contain;
+  margin-right: .5em;
+}
 /*# sourceMappingURL=main.css.map */
